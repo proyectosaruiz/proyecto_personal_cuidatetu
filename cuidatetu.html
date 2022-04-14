@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cuidatetu.css" />
+    <script src="cuidatetu.js" defer></script>
+    <title>cuidatetu</title>
+  </head>
+  <body>
+    <div class="encabezado">
+      <h1>Bienvenido a Cuidate Tú</h1>
+      <p>
+        Calcula aproximadamente tu grasa corporal y cuantas calorías y proteínas
+        debes consumir diariamente así como cantidad. Esta tabla se recomienda
+        consultar a su medico. No es para aumentar mas muscular o bajar de peso,
+        solo llevar una alimentación sana ajustada a tu morfología.
+      </p>
+    </div>
+
+    <label for="age">Edad:</label>
+    <input id="age" name="age" type="number" min="18" max="150" />
+    <label for="weight">Peso:</label>
+    <input id="weight" name="weight" type="number" min="30" max="250" />
+    <label for="stature">Estatura en centimetros:</label>
+    <input id="stature" name="stature" type="number" min="100" max="250" />
+
+    <label for="gender">Genero</label>
+    <select id="gender" name="gender">
+      <option value="man">Hombre</option>
+      <option value="women">Mujer</option>
+    </select>
+  </body>
+</html>
